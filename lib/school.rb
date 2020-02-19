@@ -19,7 +19,7 @@ class School
   end
   
   def sort 
-    roster.map { |grade| grade[]
+    roster.map { |grade, students| grade[]
   end
   
 end
