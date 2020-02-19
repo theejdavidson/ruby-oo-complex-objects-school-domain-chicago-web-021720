@@ -19,7 +19,7 @@ class School
   end
   
   def sort 
-    roster.map { |grade, students| students.sort }
+    roster.map { |grade, students| students.sort }.to_h
   end
   
 end
