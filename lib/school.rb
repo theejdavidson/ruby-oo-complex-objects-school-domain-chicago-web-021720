@@ -18,6 +18,10 @@ class School
     roster[grade]
   end
   
+  def sort 
+    roster.map
+  end
+  
 end
 
 school = School.new("Bayside High School")
